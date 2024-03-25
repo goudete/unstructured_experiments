@@ -1,0 +1,963 @@
+[
+    {
+        "type": "Title",
+        "element_id": "fd30fe681b4b2d9e55f851cb34641f90",
+        "text": "Join",
+        "metadata": {
+            "category_depth": 0,
+            "link_texts": [
+                "Join "
+            ],
+            "link_urls": [
+                "https://short.unstructured.io/pzw05l7"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "8213fcfbc5ed53a7b6569b3381d1edb5",
+        "text": "Docker Installation",
+        "metadata": {
+            "category_depth": 0,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#docker-installation"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a5f41817750bad52f65440039f332ff3",
+        "text": "The instructions below guide you on how to use the unstructured library inside a Docker container.",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "8213fcfbc5ed53a7b6569b3381d1edb5",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "4c46eef8a7aab13fa8ada6a222287b4d",
+        "text": "Prerequisites",
+        "metadata": {
+            "category_depth": 1,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#prerequisites"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "8213fcfbc5ed53a7b6569b3381d1edb5",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "b2ce57f4102e10983577db9df6f327b8",
+        "text": "If you haven’t installed Docker on your machine, you can find the installation guide here.",
+        "metadata": {
+            "link_texts": [
+                "here"
+            ],
+            "link_urls": [
+                "link_to_docker_installation"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "4c46eef8a7aab13fa8ada6a222287b4d",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "d8da2c49df39d91df7ecd199b92da7bf",
+        "text": "Note",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "c3410ab18ff179ba03dfc0cca859a7ae",
+        "text": "We build multi-platform images to support both x86_64 and Apple silicon hardware. Using docker pull should download the appropriate image for your architecture. However, if needed, you can specify the platform with the –platform flag, e.g., –platform linux/amd64.",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "d8da2c49df39d91df7ecd199b92da7bf",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "783246c9b507196a1446b8f06d74bd24",
+        "text": "Pulling the Docker Image",
+        "metadata": {
+            "category_depth": 1,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#pulling-the-docker-image"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "d8da2c49df39d91df7ecd199b92da7bf",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "db167d876d2d2bd3bba84cf6dd105037",
+        "text": "We create Docker images for every push to the main branch. These images are tagged with the respective short commit hash (like fbc7a69) and the application version (e.g., 0.5.5-dev1). The most recent image also receives the latest tag. To use these images, pull them from our repository:",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "783246c9b507196a1446b8f06d74bd24",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "d548c5b83fa61d8e3bd86ad42a7ffea9",
+        "text": "docker",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "c5f5571c2c9c437485d5c572a3ad9efe",
+        "text": "pull",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "8690c61a51b98ceb9ca814155eef699e",
+        "text": "downloads.unstructured.io/unstructured-io/unstructured:latest",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "42ab5f489bae0006d7fd184f9d908cdd",
+        "text": "Using the Docker Image",
+        "metadata": {
+            "category_depth": 1,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#using-the-docker-image"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "8690c61a51b98ceb9ca814155eef699e",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "95708449c6eb7c13f7837fc5e51aab67",
+        "text": "After pulling the image, you can create and start a container from it:",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "42ab5f489bae0006d7fd184f9d908cdd",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "903fa11dcef89c1308adb0b686927e45",
+        "text": "# create the container\ndocker",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# create the container"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "42ab5f489bae0006d7fd184f9d908cdd",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "acba25512100f80b56fc3ccd14c65be5",
+        "text": "run",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "42ab5f489bae0006d7fd184f9d908cdd",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "fefbdb67a3b2d570a0c29fd64907931f",
+        "text": "dt",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "42ab5f489bae0006d7fd184f9d908cdd",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "ea3101a726634b309e330542cabf99a8",
+        "text": "--name",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "5d660f58c55044ba75373b9d433488d5",
+        "text": "unstructured",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "8690c61a51b98ceb9ca814155eef699e",
+        "text": "downloads.unstructured.io/unstructured-io/unstructured:latest",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "e58e380a13480a6eb1a00e255e843a80",
+        "text": "# start a bash shell inside the running Docker container\ndocker",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# start a bash shell inside the running Docker container"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "8690c61a51b98ceb9ca814155eef699e",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "2706c619fe73f0cf112473c6ee02e66c",
+        "text": "exec",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "exec"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "2ad8a7049d7c5511ac254f5f51fe70a0",
+        "text": "it",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "2706c619fe73f0cf112473c6ee02e66c",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "5d660f58c55044ba75373b9d433488d5",
+        "text": "unstructured",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "37d2b12d5d9abc2a364ef9448767ee03",
+        "text": "bash",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "3a8031938c4aabeb5faa0c646adf5e14",
+        "text": "Building Your Own Docker Image",
+        "metadata": {
+            "category_depth": 1,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#building-your-own-docker-image"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "37d2b12d5d9abc2a364ef9448767ee03",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "5d3a15b40e55a3a7109c13a763e79e2e",
+        "text": "You can also build your own Docker image. If you only plan to parse a single type of data, you can accelerate the build process by excluding certain packages or requirements needed for other data types. Refer to the Dockerfile to determine which lines are necessary for your requirements.",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "3a8031938c4aabeb5faa0c646adf5e14",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "d05aa2a15fb3c40efeeb03bec445393f",
+        "text": "make",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "3a8031938c4aabeb5faa0c646adf5e14",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "1e1bc1c7e15f0d7de409fc7383bcf8c2",
+        "text": "docker-build",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "49a9dd2410c053af94d36aa781d0e8a2",
+        "text": "# start a bash shell inside the running Docker container\nmake",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# start a bash shell inside the running Docker container"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "1e1bc1c7e15f0d7de409fc7383bcf8c2",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "89861a63df3ec378e6d8f25bdff552d0",
+        "text": "docker-start-bash",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "80fa0c19060fb1b6b4f12bf7c064d0f2",
+        "text": "Interacting with Python Inside the Container",
+        "metadata": {
+            "category_depth": 1,
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#interacting-with-python-inside-the-container"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "89861a63df3ec378e6d8f25bdff552d0",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "1adf2205bd49cd86c6152c9715c3be7d",
+        "text": "Once inside the running Docker container, you can directly test the library using Python’s interactive mode:",
+        "metadata": {
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "80fa0c19060fb1b6b4f12bf7c064d0f2",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "c1cc69e61c0f1c7ade8df0f2994e582e",
+        "text": "python3",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "python3"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "e93521b2f399211140a1bc409fae86b4",
+        "text": ">>>",
+        "metadata": {
+            "emphasized_text_contents": [
+                ">>>"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "c1cc69e61c0f1c7ade8df0f2994e582e",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "75857a45899985be4c4d941e90b6b396",
+        "text": "from",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "from"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "ebc0b6137df1d38f3f3084f98d7335bc",
+        "text": "unstructured.partition.pdf",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "unstructured.partition.pdf"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "d942f64886578d8747312e368ed92d9f",
+        "text": "import",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "import"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "0263c03e8fe0ddd5a58d88bfcbbdcaf6",
+        "text": "partition_pdf",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "partition_pdf"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "e93521b2f399211140a1bc409fae86b4",
+        "text": ">>>",
+        "metadata": {
+            "emphasized_text_contents": [
+                ">>>"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "0263c03e8fe0ddd5a58d88bfcbbdcaf6",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "b0b17893a51343979e2090deee730538",
+        "text": "elements",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "elements"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "0263c03e8fe0ddd5a58d88bfcbbdcaf6",
+        "text": "partition_pdf",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "partition_pdf"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "f974a07ea4988c92d27cf645c46bc533",
+        "text": "filename",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "filename"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "db26471d37c8752ebc17b520a45f8507",
+        "text": "\"example-docs/layout-parser-paper-fast.pdf\"",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "\"example-docs/layout-parser-paper-fast.pdf\""
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "e93521b2f399211140a1bc409fae86b4",
+        "text": ">>>",
+        "metadata": {
+            "emphasized_text_contents": [
+                ">>>"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "db26471d37c8752ebc17b520a45f8507",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "75857a45899985be4c4d941e90b6b396",
+        "text": "from",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "from"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "13c39d8d398c0450dbc2c94afc708732",
+        "text": "unstructured.partition.text",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "unstructured.partition.text"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "d942f64886578d8747312e368ed92d9f",
+        "text": "import",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "import"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "852171405957cebe5975e4f13f7f24fc",
+        "text": "partition_text",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "partition_text"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "e93521b2f399211140a1bc409fae86b4",
+        "text": ">>>",
+        "metadata": {
+            "emphasized_text_contents": [
+                ">>>"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "852171405957cebe5975e4f13f7f24fc",
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "b0b17893a51343979e2090deee730538",
+        "text": "elements",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "elements"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "852171405957cebe5975e4f13f7f24fc",
+        "text": "partition_text",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "partition_text"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "f974a07ea4988c92d27cf645c46bc533",
+        "text": "filename",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "filename"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "236a45bdfb66974ae72956e0a7be7f82",
+        "text": "\"example-docs/fake-text.txt\"",
+        "metadata": {
+            "category_depth": 0,
+            "emphasized_text_contents": [
+                "\"example-docs/fake-text.txt\""
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html",
+            "filetype": "text/html"
+        }
+    }
+]

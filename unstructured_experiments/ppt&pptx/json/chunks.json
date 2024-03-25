@@ -1,0 +1,17 @@
+[
+    {
+        "type": "CompositeElement",
+        "element_id": "2b0fe7a8d83a07e921fa71dfd666dea0",
+        "text": "Sample PowerPoint File\n\nSt. Cloud Technical College\n\nThis is a Sample Slide\n\nHere is an outline of bulleted points\n\nYou can print out PPT files as handouts using the \u000bPRINT > \u000b  PRINT WHAT > HANDOUTS option",
+        "metadata": {
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "languages": [
+                "eng"
+            ],
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 1
+        }
+    }
+]

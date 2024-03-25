@@ -1,0 +1,182 @@
+[
+    {
+        "type": "CompositeElement",
+        "element_id": "f4b332a5f52e029f0f409971ad2c0dc1",
+        "text": "Join\n\nDocker Installation\n\nThe instructions below guide you on how to use the unstructured library inside a Docker container.\n\nPrerequisites\n\nIf you haven’t installed Docker on your machine, you can find the installation guide here.\n\nNote",
+        "metadata": {
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "link_texts": [
+                "Join ",
+                "",
+                "",
+                "here"
+            ],
+            "link_urls": [
+                "https://short.unstructured.io/pzw05l7",
+                "#docker-installation",
+                "#prerequisites",
+                "link_to_docker_installation"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "febacb8f5f1481ffb398b60a9ad4109e",
+        "text": "We build multi-platform images to support both x86_64 and Apple silicon hardware. Using docker pull should download the appropriate image for your architecture. However, if needed, you can specify the platform with the –platform flag, e.g., –platform linux/amd64.\n\nPulling the Docker Image",
+        "metadata": {
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#pulling-the-docker-image"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "5691e171255892039ef41cd68ff2d3c7",
+        "text": "We create Docker images for every push to the main branch. These images are tagged with the respective short commit hash (like fbc7a69) and the application version (e.g., 0.5.5-dev1). The most recent image also receives the latest tag. To use these images, pull them from our repository:\n\ndocker\n\npull\n\ndownloads.unstructured.io/unstructured-io/unstructured:latest\n\nUsing the Docker Image\n\nAfter pulling the image, you can create and start a container from it:\n\n# create the container\ndocker\n\nrun",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# create the container"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#using-the-docker-image"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "94b5fe4fb2b774fdd8e1687b09ae2fa0",
+        "text": "dt\n\n--name\n\nunstructured\n\ndownloads.unstructured.io/unstructured-io/unstructured:latest\n\n# start a bash shell inside the running Docker container\ndocker\n\nexec\n\nit\n\nunstructured\n\nbash\n\nBuilding Your Own Docker Image",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# start a bash shell inside the running Docker container",
+                "exec"
+            ],
+            "emphasized_text_tags": [
+                "span",
+                "span"
+            ],
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#building-your-own-docker-image"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "04ab5e30751823402ef646aea083e567",
+        "text": "You can also build your own Docker image. If you only plan to parse a single type of data, you can accelerate the build process by excluding certain packages or requirements needed for other data types. Refer to the Dockerfile to determine which lines are necessary for your requirements.\n\nmake\n\ndocker-build\n\n# start a bash shell inside the running Docker container\nmake\n\ndocker-start-bash\n\nInteracting with Python Inside the Container",
+        "metadata": {
+            "emphasized_text_contents": [
+                "# start a bash shell inside the running Docker container"
+            ],
+            "emphasized_text_tags": [
+                "span"
+            ],
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "link_texts": [
+                ""
+            ],
+            "link_urls": [
+                "#interacting-with-python-inside-the-container"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "bf2da478df3cce47ecf852a29bf86673",
+        "text": "Once inside the running Docker container, you can directly test the library using Python’s interactive mode:\n\npython3\n\n>>>\n\nfrom\n\nunstructured.partition.pdf\n\nimport\n\npartition_pdf\n\n>>>\n\nelements\n\npartition_pdf\n\nfilename\n\n\"example-docs/layout-parser-paper-fast.pdf\"\n\n>>>\n\nfrom\n\nunstructured.partition.text\n\nimport\n\npartition_text\n\n>>>\n\nelements\n\npartition_text\n\nfilename\n\n\"example-docs/fake-text.txt\"",
+        "metadata": {
+            "emphasized_text_contents": [
+                "python3",
+                ">>>",
+                "from",
+                "unstructured.partition.pdf",
+                "import",
+                "partition_pdf",
+                ">>>",
+                "elements",
+                "partition_pdf",
+                "filename",
+                "\"example-docs/layout-parser-paper-fast.pdf\"",
+                ">>>",
+                "from",
+                "unstructured.partition.text",
+                "import",
+                "partition_text",
+                ">>>",
+                "elements",
+                "partition_text",
+                "filename",
+                "\"example-docs/fake-text.txt\""
+            ],
+            "emphasized_text_tags": [
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span",
+                "span"
+            ],
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "url": "https://unstructured-io.github.io/unstructured/installation/docker.html"
+        }
+    }
+]

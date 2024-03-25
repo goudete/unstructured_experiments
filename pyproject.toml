@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "unstructured-experiments"
+version = "0.1.0"
+description = ""
+authors = ["goudete <goudetenrique@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+unstructured = {extras = ["pdf"], version = "^0.12.6"}
+pydantic = "^2.6.4"
+mixpeek = "^0.4"
+python-pptx = "^0.6.23"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

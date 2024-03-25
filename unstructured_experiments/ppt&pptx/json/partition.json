@@ -1,0 +1,98 @@
+[
+    {
+        "type": "Title",
+        "element_id": "b15de2f82d8e80e447be67688e556f5d",
+        "text": "Sample PowerPoint File",
+        "metadata": {
+            "category_depth": 0,
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "8bc384fb371ed8c68ded708f86bbc410",
+        "text": "St. Cloud Technical College",
+        "metadata": {
+            "category_depth": 1,
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "b15de2f82d8e80e447be67688e556f5d",
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    },
+    {
+        "type": "PageBreak",
+        "element_id": "e3b0c44298fc1c149afbf4c8996fb924",
+        "text": "",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "aebaacb7eb0418d37e8c68adf7fa2bd0",
+        "text": "This is a Sample Slide",
+        "metadata": {
+            "category_depth": 0,
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "6791a379a5745ef0b17c862d41513676",
+        "text": "Here is an outline of bulleted points",
+        "metadata": {
+            "category_depth": 0,
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "aebaacb7eb0418d37e8c68adf7fa2bd0",
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "0e5883937115287901c86b6fde3bc7df",
+        "text": "You can print out PPT files as handouts using the \u000bPRINT > \u000b  PRINT WHAT > HANDOUTS option",
+        "metadata": {
+            "category_depth": 0,
+            "file_directory": ".",
+            "filename": "sample.pptx",
+            "last_modified": "2024-03-25T13:46:14",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "aebaacb7eb0418d37e8c68adf7fa2bd0",
+            "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        }
+    }
+]
